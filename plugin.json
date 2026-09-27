@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ontario-mental-health-law",
+  "version": "0.1.0",
+  "description": "Source-grounded Ontario mental health law education and MHA form review.",
+  "author": {"name": "Ariel Graff-Guerrero"},
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "Ontario Mental Health Law",
+    "shortDescription": "Ontario law, capacity, CCB, and MHA forms",
+    "longDescription": "Educational answers grounded in current Ontario law and prescribed forms, with checks for grounds, paired notices, and certificate dates.",
+    "developerName": "Ariel Graff-Guerrero",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "Explain an Ontario Mental Health Act form and its related notice with citations.",
+      "Review de-identified Form 3 and Form 30 grounds and dates.",
+      "Explain treatment capacity and the applicable SDM hierarchy in Ontario."
+    ]
+  }}}
+}
